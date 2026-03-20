@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Produto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Editar Produto</h1>
+        <form method="post">
+            <label>Nome:</label><input type="text" name="nome" value="{{ produto['nome'] }}" required><br>
+            <label>Código:</label><input type="text" name="codigo" value="{{ produto['codigo'] }}" required><br>
+            <label>Fornecedor:</label><input type="text" name="fornecedor" value="{{ produto['fornecedor'] }}" required><br>
+            <label>Quantidade:</label><input type="number" name="quantidade" value="{{ produto['quantidade'] }}" min="0" required><br>
+            <label>Estoque Mínimo:</label><input type="number" name="estoque_minimo" value="{{ produto['estoque_minimo'] }}" min="0" required><br>
+            <label>Preço:</label><input type="number" name="preco" value="{{ produto['preco'] }}" step="0.01" min="0" required><br>
+            <button type="submit">Salvar</button>
+        </form>
+        <a href="{{ url_for('index') }}">Voltar</a>
+    </div>
+</body>
+</html>

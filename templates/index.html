@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Produtos</h1>
+    <a href="{{ url_for('cadastrar') }}" class="btn-acao btn-editar"> + Novo Produto</a>
+
+     <table>
+        <tr>
+            <th>Nome</th>
+            <th>Código</th>
+            <th>Fornecedor</th>
+            <th>Quantidade</th>
+            <th>Estoque Mínimo</th>
+            <th>Preço</th>
+            <th>Ações</th>
+        </tr>
+
+        {% for produto in produtos %}
+        <tr {% if produto['quantidade'] <= produto['estoque_minimo'] %}class="alerta"{% endif %}>
+            <td>{{ produto['nome'] }}</td>
+            <td>{{ produto['codigo'] }}</td>
+            <td>{{ produto['fornecedor'] }}</td>
+            <td>{{ produto['quantidade'] }}</td>
+            <td>{{ produto['estoque_minimo'] }}</td>
+            <td>{{ produto['preco'] }}</td>
+            <td>
+                <a href="{{ url_for('editar', id=produto['id']) }}" class="btn-acao btn-editar">Editar</a>
+                <a href="{{ url_for('excluir', id=produto['id']) }}" class="btn-acao btn-excluir">Excluir</a>
+
+                <form action="{{ url_for('entrada', id=produto['id']) }}" method="post" style="display:inline;">
+                    <input type="number" name="quantidade" min="1" placeholder="Entrada" style="width:90px; margin-left:4px; border-radius:4px;">
+                    <button type="submit" class="btn-acao btn-entrada">Entrada</button>
+                </form>
+
+                <form action="{{ url_for('saida', id=produto['id']) }}" method="post" style="display:inline;">
+                    <input type="number" name="quantidade" min="1" placeholder="Saída" style="width:76px; margin-left:4px; border-radius:4px;">
+                    <button type="submit" class="btn-acao btn-saida">Saída</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    
+</body>
+</html>

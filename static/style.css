@@ -1,0 +1,234 @@
+:root {
+    /*Estilização básica da página*/
+    --body-font: Arial, sans-serif;
+    --body-background-color:#f4f6fa;
+
+    /* Cabeçalho */
+    --cabecalho-font-color: #232323;
+
+    /* Tabela */
+    --table-background-color: #fff;
+    --table-box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    
+    --th-background-color: #333;
+    --th-color: #fff;
+    --td-padding: 10px;
+
+    --td-border-bottom: 1px solid #ddd;
+    --tr-hover-background-color: #f1f1f1;
+
+   
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--body-background-color);
+    padding: 24px;
+}
+
+
+/* Cabeçalho */
+h1 {
+    font-size: 2em;
+    color: var(--cabecalho-font-color);
+    margin-bottom: 20px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--table-background-color);
+    margin-top: 18px;
+    box-shadow: var(--table-box-shadow);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color:var(--th-background-color);
+    color: var(--th-color);
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: var(--td-border-bottom);
+}
+
+tr:hover {
+    background-color: var(--tr-hover-background-color);
+}
+
+
+/* Botões de ações */
+.btn-acao {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.btn-editar { background: #33b864; }
+.btn-editar:hover { background: #43904b; }
+.btn-excluir { background: #ef5350; }
+.btn-excluir:hover { background: #e53935; }
+.btn-entrada { background: #29b6f6; }
+.btn-entrada:hover { background: #0288d1; }
+.btn-saida { background: #ffa726; }
+.btn-saida:hover { background: #fb8c00; }
+
+/* Alerta de estoque mínimo */
+.alerta {
+    background-color: #feecec;
+}
+
+/* Formulário */
+.form-container {
+    background: #fff;
+    padding: 24px 28px;
+    margin: 0 auto;
+    max-width: 420px;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(63,80,159,0.08);
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 450;
+    color: #2536cf;
+    font-size: 1em;
+}
+input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 16px;
+    border: 1px solid #dde3f0;
+    border-radius: 6px;
+    font-size: 1em;
+    background: #f4f6fa;
+    transition: border 0.2s;
+}
+input:focus { border-color: #2536cf; outline: none;}
+button {
+    background: #2536cf;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 1.07em;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background 0.3s;
+}
+button:hover { background: #4055d4; }
+a {
+    font-size: 1em;
+    color: #2536cf;
+    font-weight: 500;
+    margin-left: 3px;
+}
+a:hover { text-decoration: underline; }
+/* Mensagens flash */
+ul {
+    list-style: none;
+    background-color: #d4edda;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+ul li { color: #155724; }
+
+/* Editar */
+
+.form-container {
+    background: #fff;
+    padding: 32px 28px;
+    margin: 30px auto;
+    max-width: 420px;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(63,80,159,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container h1 {
+    color: #2536cf;
+    font-size: 1.6em;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 500;
+    color: #2536cf;
+    font-size: 1em;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 18px;
+    border: 1px solid #dde3f0;
+    border-radius: 6px;
+    font-size: 1em;
+    background: #f4f6fa;
+    transition: border 0.2s;
+}
+
+.form-container input:focus {
+    border-color: #2536cf;
+    outline: none;
+}
+
+.form-container button {
+    background: #2536cf;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 1.07em;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background: #4055d4;
+}
+
+.form-container a {
+    font-size: 1em;
+    color: #2536cf;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    background: #f2f4f7;
+    transition: background 0.3s;
+}
+
+.form-container a:hover {
+    background: #e0e4fa;
+    text-decoration: underline;
+}
