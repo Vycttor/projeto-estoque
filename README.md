@@ -8,9 +8,10 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 ## Preview das Telas
 
-> Inclua aqui prints das principais telas do sistema:
->
 > - Tela de listagem de produtos
+
+![Tela de Produtos](assets/tela-principal.png)
+
 > - Tela de cadastro de produto
 > - Tela de edição de produto
 > - Alerta de estoque mínimo
