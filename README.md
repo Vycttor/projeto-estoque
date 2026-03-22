@@ -6,6 +6,12 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 ---
 
+## Objetivo do Projeto
+
+Desenvolver um sistema web funcional e didático para o controle de estoque, aplicando conhecimentos de lógica de programação, banco de dados, desenvolvimento web e documentação técnica. O projeto visa solucionar um problema real identificado em uma oficina mecânica, substituindo métodos manuais por uma ferramenta interativa e eficiente.
+
+---
+
 ## Preview das Telas
 
 ### Tela Principal
@@ -50,7 +56,7 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 ---
 
 ## Tecnologias Utilizadas
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 
 - **Python 3** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 - **Flask** (framework web)![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
@@ -70,7 +76,7 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seuusuario/projeto-estoque.git
+    git clone https://github.com/Vycttor/projeto-estoque.git
     cd projeto-estoque
     ```
 
@@ -103,9 +109,7 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 ---
 
-## Objetivo do Projeto
 
-Desenvolver um sistema web funcional e didático para o controle de estoque, aplicando conhecimentos de lógica de programação, banco de dados, desenvolvimento web e documentação técnica. O projeto visa solucionar um problema real identificado em uma oficina mecânica, substituindo métodos manuais por uma ferramenta interativa e eficiente.
 
 ---
 
@@ -116,14 +120,15 @@ Desenvolver um sistema web funcional e didático para o controle de estoque, apl
 - Autenticação de usuários
 - Implantação online (cloud)
 - Integração com sistemas de vendas
+- Responsividade para diferente tamanhos de tela
 
 ---
 
 ## Autor
 
 - Victor Pinheiro
-- Projeto Integrador - Lógica de Programação
-- Universidade [Nome]
+- Projeto Integrador: Laboratório de Programação - Dependência.
+- Universidade [UNISA - Universidade Santo Amaro]
 - Ano: 2026
 
 ---
