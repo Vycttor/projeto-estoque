@@ -51,11 +51,11 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 ## Tecnologias Utilizadas
 
-- **Python 3**
-- **Flask** (framework web)
-- **SQLite** (banco de dados)
-- **HTML5 / CSS3**
-- **Jinja2** (templates Flask)
+- **Python 3** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- **Flask** (framework web)![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+- **SQLite** (banco de dados)![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+- **HTML5 / CSS3**![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- **Jinja2** (templates Flask)![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
 
 ---
 ## Como Executar
