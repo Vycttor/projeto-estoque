@@ -50,6 +50,7 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 ---
 
 ## Tecnologias Utilizadas
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 - **Python 3** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 - **Flask** (framework web)![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
