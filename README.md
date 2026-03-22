@@ -8,19 +8,19 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 ## Preview das Telas
 
-> - Tela de listagem de produtos
+### Tela de listagem de produtos
 
 ![Tela de Produtos](assets/tela-principal.png)
 
-> - Tela de cadastro de produto
+### Tela de cadastro de produto
 
 ![Tela de Cadastro](assets/tela-cadastro-de-produto.png)
 
-> - Tela de edição de produto
+### Tela de edição de produto
 
 ![Tela de Edição de Produto](assets/tela-editar-produto.png)
 
-> - Alerta de estoque mínimo
+### Alerta de estoque mínimo
 
 ![Tela Alerta de estoque mínimo](assets/alerta-minimo.png)
 
