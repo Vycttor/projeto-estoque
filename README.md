@@ -8,21 +8,30 @@ Este projeto acadêmico foi desenvolvido para atender às necessidades de uma of
 
 ## Preview das Telas
 
-### Tela de listagem de produtos
+### Tela Principal
 
 ![Tela de Produtos](assets/tela-principal.png)
+> Tela principal do sistema, exibe a listagem completa de produtos cadastrados, 
+> com opções de entrada e saída de estoque, edição e exclusão de cada item.
 
-### Tela de cadastro de produto
+### Tela de Cadastro
 
 ![Tela de Cadastro](assets/tela-cadastro-de-produto.png)
+> Tela de cadastro de novos produtos, permite registrar informações como nome, 
+> código, fornecedor, quantidade, estoque mínimo e preço unitário.
 
-### Tela de edição de produto
+### Tela de Edição
 
 ![Tela de Edição de Produto](assets/tela-editar-produto.png)
+> Tela de edição de produtos, permite atualizar as informações de um produto 
+> já cadastrado, garantindo a precisão dos dados no sistema.
 
-### Alerta de estoque mínimo
+### Alerta de Estoque Mínimo
 
 ![Tela Alerta de estoque mínimo](assets/alerta-minimo.png)
+> Alerta visual destacado em vermelho para produtos com quantidade igual ou 
+> inferior ao estoque mínimo estabelecido, facilitando a tomada de decisão 
+> para reposição de peças.
 
 
 
