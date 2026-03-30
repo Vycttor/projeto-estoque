@@ -127,7 +127,7 @@ Desenvolver um sistema web funcional e didático para o controle de estoque, apl
 ## Autor
 
 - Victor Pinheiro
-- Projeto Integrador: Laboratório de Programação - Dependência.
+- Projeto Integrador: Laboratório de Programação.
 - Universidade [UNISA - Universidade Santo Amaro]
 - Ano: 2026
 
